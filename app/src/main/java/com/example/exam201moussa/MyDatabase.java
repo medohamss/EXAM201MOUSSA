@@ -14,6 +14,9 @@ public class MyDatabase {
     public static String COL3 = "Secteur_activite";
     public static String COL4 = "nb_employe";
 
+    public MyDatabase(AddSociete addSociete) {
+    }
+
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql = "create table " + TABLE_NAME + " ("+ COL1 +" integer primary key autoincrement, "+COL2+" TEXT,"+COL3+" TEXT,"+COL4+" integer )";
         sqLiteDatabase.execSQL(sql);
@@ -76,5 +79,6 @@ public class MyDatabase {
         }
         return soc;
     }
+
 
 }
