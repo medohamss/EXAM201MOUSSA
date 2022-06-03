@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSociete">>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/t1"
         android:text="Ajouter Societe"
         style="@style/TextViewStyle"/>
-
     <EditText
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:background="#75D3CA"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:id="@+id/Nom"
-        android:inputType="numberDecimal"
+
+        android:id="@+id/e1"
+        style="@style/EditTxtStyl"
+        android:layout_below="@+id/t1"
         android:hint="taper le nom de societe :"/>
     <EditText
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:background="#75D3CA"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:id="@+id/Sec"
-        android:inputType="numberDecimal"
+        android:id="@+id/e3"
+        style="@style/EditTxtStyl"
+        android:layout_below="@+id/e1"
+
+
+
         android:hint="taper le secteur de societe :"/>
     <EditText
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:background="#75D3CA"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:id="@+id/Nbr"
-        android:inputType="numberDecimal"
+        android:id="@+id/e2"
+        style="@style/EditTxtStyl"
+        android:layout_below="@+id/e2"
         android:hint="taper le nobre d'employee de societe :"/>
-    </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_below="@+id/e3">
         <Button
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
