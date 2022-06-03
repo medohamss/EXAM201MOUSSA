@@ -14,7 +14,7 @@ public class MyDatabase {
     public static String COL3 = "Secteur_activite";
     public static String COL4 = "nb_employe";
 
-    public MyDatabase(AddSociete addSociete) {
+    public MyDatabase(EditSociete addSociete) {
     }
 
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
