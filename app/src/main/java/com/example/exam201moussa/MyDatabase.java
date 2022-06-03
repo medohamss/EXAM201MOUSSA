@@ -17,6 +17,10 @@ public class MyDatabase {
     public MyDatabase(EditSociete addSociete) {
     }
 
+    public MyDatabase(AddSociete addSociete) {
+
+    }
+
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql = "create table " + TABLE_NAME + " ("+ COL1 +" integer primary key autoincrement, "+COL2+" TEXT,"+COL3+" TEXT,"+COL4+" integer )";
         sqLiteDatabase.execSQL(sql);

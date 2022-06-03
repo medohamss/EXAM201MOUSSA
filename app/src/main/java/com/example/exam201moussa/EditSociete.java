@@ -1,13 +1,20 @@
 package com.example.exam201moussa;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class EditSociete {
+public class EditSociete extends AppCompatActivity {
     EditText e1, e2, e3;
     MyDatabase db;
     Spinner sp;
@@ -15,7 +22,7 @@ public class EditSociete {
     ArrayAdapter ad;
 
 
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editer_Societe);
         db = new MyDatabase(this);
@@ -33,5 +40,6 @@ public class EditSociete {
         ad = new ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, ids);
         sp.setAdapter(ad);
     }
+
 
 }
