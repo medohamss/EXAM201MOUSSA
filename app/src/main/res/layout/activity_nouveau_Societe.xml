@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Societe"
+        style="@style/TextViewStyle"/>
 
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#75D3CA"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/Nom"
+        android:inputType="numberDecimal"
+        android:hint="taper le nom de societe :"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#75D3CA"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/Sec"
+        android:inputType="numberDecimal"
+        android:hint="taper le secteur de societe :"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#75D3CA"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/Nbr"
+        android:inputType="numberDecimal"
+        android:hint="taper le nobre d'employee de societe :"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="#673370"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Enregistrer"
+            android:layout_weight="1"
+            android:id="@+id/btnenregitre"/>
 
-
-
-</LinearLayout>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="#673370"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Anuller"
+            android:layout_weight="1"
+            android:id="@+id/btnAnuleer"/>
+    </LinearLayout>
+</RelativeLayout>
