@@ -27,7 +27,7 @@
     <Button
         style="@style/MenuBtnStyle"
         android:text="@string/btn3"
-        android:id="@+id/btnAllEnt"
+        android:id="@+id/btnAllSoc"
         android:onClick="accederer"/>
 
 

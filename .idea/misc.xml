@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/drawable/form.xml" value="0.1525" />
+        <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/layout/activity_editer_produit.xml" value="0.3375" />
+        <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/layout/activity_liste_produits.xml" value="0.3375" />
         <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/layout/activity_main.xml" value="0.3234375" />
+        <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/layout/activity_nouveau_Societe.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/stagiaire/Desktop/EXAM201MOUSSA/app/src/main/res/layout/activity_nouveau_produit.xml" value="0.3375" />
       </map>
     </option>
   </component>
