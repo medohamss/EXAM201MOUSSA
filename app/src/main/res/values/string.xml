@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Menu Generale</string>
+
+    <string name="btn1">Ajouter une Societe</string>
+
+    <string name="btn2">Editer une Societe</string>
+    <string name="btn3">Lister des Societes</string>
+    <string name="b1Ad">Enregistrer</string>
+    <string name="b2Ad">Annuler</string>
+    <string name="b1Edt">Modifier</string>
+    <string name="b2Edt">Supprimer</string>
+    <string name="hint1">Tapez le nom de societe ...</string>
+    <string name="hint2">Tapez le secteur de activitee...</string>
+    <string name="hint3">Tapez le nb des employes ...</string>
+
+</resources>
